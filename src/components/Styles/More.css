@@ -1,0 +1,61 @@
+.more-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 3%;
+  }
+  
+  .languages-card,
+  .habilities-card {
+    background-color: #f4f4f4;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    height: 300px;
+    margin: 1%;
+  }
+  
+  .languages-card {
+    flex-basis: 45%;
+  }
+  
+  .habilities-card {
+    flex-basis: 45%;
+  }
+  
+  .languages-card h2,
+  .habilities-card h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .languages-card ul,
+  .habilities-card div {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .languages-card .language {
+    font-weight: bold;
+  }
+  
+  .habilities-card p {
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+
+  .habilities-card p:hover {
+    font-style: italic;
+    color: rgb(59, 38, 11);
+  }
+  
+  .language{
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .language-intro{
+    font-weight: 600;
+  }
